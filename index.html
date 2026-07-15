@@ -1,12 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="ru">
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой проект: новости, финансы, безопасность</title>
-    <meta name="yandex-verification" content="4cbe0db116ca0ffe" />
-</head>
+    <!-- ВСТАВЬ СЮДА СВОЙ КОД ПОДТВЕРЖДЕНИЯ ОТ ЯНДЕКСА (вместо ТВОЙ_КОД_ПОДТВЕРЖДЕНИЯ) -->
+    <meta name="yandex-verification" content="ТВОЙ_КОД_ПОДТВЕРЖДЕНИЯ" />
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -123,10 +122,9 @@
             }
         }
     </style>
-</head> <meta name="yandex-verification" content="4cbe0db116ca0ffe" />
-
+</head>
 <body>
-    <h1>Мой проект</h1>
+    <h1>Мой проект: новости, финансы, безопасность</h1>
     <p>Выбери, что интересно прямо сейчас:</p>
 
     <!-- КНОПКИ-РАЗДЕЛЫ -->
@@ -143,7 +141,7 @@
     <form action="https://formspree.io/f/ВСТАВЬ_СЮДА_СВОЙ_КОД" method="POST">
         <div class="feedback-form">
             <h2>Оставьте отзыв</h2>
-            
+
             <label for="name">Ваше имя:</label>
             <input type="text" id="name" name="name" required placeholder="Как к вам обращаться">
 
@@ -152,8 +150,6 @@
 
             <label for="message">Ваш отзыв или вопрос:</label>
             <textarea id="message" name="message" rows="5" required placeholder="Напишите, что понравилось или что улучшить…"></textarea>
-
-            <button type="submit">Отправить отзыв</button>
             
             <p class="note">
                 Это рабочая форма: отзыв придёт вам на почту.<br>
@@ -161,6 +157,27 @@
             </p>
         </div>
     </form>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t),k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=110753553', 'ym');
+
+        ym(110753553, 'init', {
+            ssr: true, 
+            webvisor: true, 
+            clickmap: true, 
+            ecommerce: "dataLayer", 
+            referrer: document.referrer, 
+            url: location.href, 
+            accurateTrackBounce: true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/110753553" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
 </html>
-
