@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Severity</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header><a href="index.html">Главная</a></header>
-  <main><h1>Severity</h1><p>Здесь будет информация по уровню серьёзности.</p></main>
-  <footer>&copy; Techno News</footer>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Severity — Techno News</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Главная</a> |
+        <a href="business-help.html">Business Help</a> |
+        <a href="market.html">Market</a> |
+        <a href="severity.html">Severity</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Severity</h1>
+      <p>Уровни серьёзности инцидентов:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Уровень</th>
+            <th>Описание</th>
+            <th>Время реакции</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Critical</td>
+            <td>Полный отказ сервиса</td>
+            <td>&lt; 15 минут</td>
+          </tr>
+          <tr>
+            <td>High</td>
+            <td>Частичный отказ, влияет на ключевых пользователей</td>
+            <td>&lt; 1 часа</td>
+          </tr>
+          <tr>
+            <td>Medium</td>
+            <td>Неудобства, не критичные функции</td>
+            <td>&lt; 4 часов</td>
+          </tr>
+          <tr>
+            <td>Low</td>
+            <td>Мелкие ошибки, косметические проблемы</td>
+            <td>&lt; 24 часов</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Techno News. Все права защищены.</p>
+    </footer>
+  </body>
 </html>
